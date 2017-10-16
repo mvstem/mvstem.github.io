@@ -35,7 +35,7 @@
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
+		: '';
 		content: none;
 	}
 
@@ -2879,19 +2879,26 @@
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	/* Mission Statement */
 
+		#mission {
+			background: url("images/overlay.png"), url("../../images/code.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
 /* One */
 
-	#one {
+	#build {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* Innovate */
 
-	#two {
+	#innovate {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -3366,7 +3373,7 @@
 					display: none;
 				}
 
-				.main.style2 .content {
+				.main.style2 . {
 					width: 100%;
 					left: 0% !important;
 					text-align: center;
